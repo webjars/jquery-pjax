@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>jquery-pjax</artifactId>
-    <version>1.9.5-SNAPSHOT</version>
+    <version>1.9.5</version>
     <name>jquery-pjax</name>
     <description>WebJar for jquery-pjax</description>
     <url>http://webjars.org</url>
@@ -53,7 +53,7 @@
         <url>http://github.com/webjars/jquery-pjax</url>
         <connection>scm:git:https://github.com/webjars/jquery-pjax.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/jquery-pjax.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>jquery-pjax-1.9.5</tag>
     </scm>
     
     <dependencies>
@@ -76,8 +76,8 @@
                         <goals><goal>run</goal></goals>
                         <configuration>
                             <target>
-                                <mkdir dir="${destDir}"/>
-                                <get src="${upstream.url}/jquery.pjax.js" dest="${destDir}"/>
+                                <mkdir dir="${destDir}" />
+                                <get src="${upstream.url}/jquery.pjax.js" dest="${destDir}" />
                             </target>
                         </configuration>
                     </execution>
