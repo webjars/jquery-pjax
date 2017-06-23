@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>jquery-pjax</artifactId>
-    <version>2.0.0-SNAPSHOT</version>
+    <version>2.0.0</version>
     <name>jquery-pjax</name>
     <description>WebJar for jquery-pjax</description>
     <url>http://webjars.org</url>
@@ -53,7 +53,7 @@
         <url>http://github.com/webjars/jquery-pjax</url>
         <connection>scm:git:https://github.com/webjars/jquery-pjax.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/jquery-pjax.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>jquery-pjax-2.0.0</tag>
     </scm>
     
     <dependencies>
